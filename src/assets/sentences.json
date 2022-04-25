@@ -1,5 +1,5 @@
 {
-  introductions: [
+  "introductions": [
     "Det va mens",
     "Det her va, om æ minnest rætt, mens",
     "Sku tru om det ikkje va på den tia da",
@@ -23,7 +23,7 @@
     "Jau, ska tru om ikkje det hær heindt på den tida da",
     "Det her va på den tida"
   ],
-  persons: [
+  "persons": [
     "han Jændor",
     "ho Emma",
     "han Krestian",
@@ -48,7 +48,7 @@
     "hainn Pess-Evald",
     "han Marvin"
   ],
-  backgrounds: [
+  "backgrounds": [
     "kjørt møker",
     "va lænsmainn",
     "dreiv feske",
@@ -73,7 +73,7 @@
     "egenhendig bygd kaianlægg",
     "dreiv læfsbakeri"
   ],
-  places: [
+  "places": [
     "i Leknes",
     "i Balsfjorn",
     "på Rognan",
@@ -98,7 +98,7 @@
     "i Mefjordvær",
     "i Stamsund"
   ],
-  settings: [
+  "settings": [
     "Gammelkara satt i",
     "Det va fæst på brøgga, og ungkara lå i",
     "Kommunestyret satt i",
@@ -122,7 +122,7 @@
     "Utbetalinga av SND-tellskudde va førrsinka så mainnfolkan satt tetakslaust i",
     "Rotaryklubben satt pænglaus i"
   ],
-  locations: [
+  "locations": [
     "naustet",
     "fjæra",
     "sjykainten",
@@ -146,7 +146,7 @@
     "veikainten",
     "hotællhagen"
   ],
-  verbs: [
+  "verbs": [
     "prekivert",
     "åt",
     "glæfsa i sæ",
@@ -173,7 +173,7 @@
     "saumfart",
     "længta ætte"
   ],
-  foods: [
+  "foods": [
     "tørrfesk",
     "skreilever",
     "hyshau",
@@ -196,6 +196,36 @@
     "kamferdrops",
     "kålrabbi",
     "gammelsau"
+  ],
+  "moods1": [
+    "Praten gjekk levlig,",
+    "Stemninga va laber,",
+    "Det va ei dyster stæmning,",
+    "Det vart snakka om laust og fast,",
+    "Det vart snakka om det elendige sparkføre,",
+    "Det vart snakka om laust og fast,",
+    "Praten gjekk levlig,",
+    "Det elendige vårfeske vart diskutert,",
+    "Det vart snakka om vær og vind,",
+    "LOFAST-førrbindelsen vart diskutert,",
+    "Det vart snakka om det dårlige feske,",
+    "Det va ei dyster stæmning,",
+    "Praten gjekk om framtia førr feskerian,",
+    "Stæmninga va netrøkt,",
+    "Stæmninga va resignert,"
+  ],
+  "moods2": [
+    "og mangt eit sannheitens ord ble sagt.",
+    "og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt.",
+    "og skråtobakk vart spøtta væggimellom.",
+    "og bainnskapen hagla.",
+    "og eit og ainna ukvæmsord veksla eier.",
+    "og mang ein beskyldning om unnaluring blei framsatt.",
+    "og mangt ei ugudelig ord blei spøtta ut.",
+    "og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt.",
+    "og det va ikkje fritt førr at eit og ainna haulaust ord vart uttalt.",
+    "og mang ein beskyldning om latskap og udugeligheit blei framsatt.",
+    "og det vart resta oppgjett på mangt eit hau.",
+    "og mang ein næve vart høtta i førrakt mot handlingslammelsen tell politikeran sørpå."
   ]
-
 }
