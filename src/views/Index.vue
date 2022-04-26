@@ -45,7 +45,7 @@ export default {
       return Sentences.foods
     },
     randomSentence () {
-      const keys = [
+      const situation1 = [
         'introductions',
         'persons',
         'backgrounds',
@@ -55,16 +55,51 @@ export default {
         'verbs',
         'foods',
         'moods1',
-        'moods2'
+        'moods2',
+        ' Plutselig ',
+        'surprises1',
+        'surpriseActors',
+        'surpriseActorActions',
+        '. ',
+        'exclamations2',
+        'exclamations3',
+        ' utbraut ',
+        'persons',
+        'personDescriptions',
+        'silences',
+        'postSilences',
+        'persons',
+        'postSilenceDescriptions',
+        'exclamations4',
+        ' at ',
+        ' sjøl ',
+        'exclamations5',
+        'exclamations6'
       ]
+      // const keys = [
+      //   'introductions',
+      //   'persons',
+      //   'backgrounds',
+      //   'places',
+      //   'settings',
+      //   'locations',
+      //   'verbs',
+      //   'foods',
+      //   'moods1',
+      //   'moods2'
+      // ]
       let sentence = ''
-      keys.map(e => {
-        sentence += this.shuffle(Sentences[e])[0]
-        if (e === 'foods') {
-          sentence += '. '
+      situation1.map(e => {
+        if (Sentences[e] !== undefined) {
+          sentence += this.shuffle(Sentences[e])[0] + ' '
         } else {
-          sentence += ' '
+          sentence += e
         }
+        // if (e === 'foods') {
+        //   sentence += '. '
+        // } else {
+        //   sentence += ' '
+        // }
       })
       return sentence
     }

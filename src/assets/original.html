@@ -88,408 +88,382 @@ var ah = new Array(ahmax)
 var ai = new Array(aimax)
 var aj = new Array(ajmax)
 
-a[1]="Det va mens"
-a[2]="Det her va, om æ minnest rætt, mens"
-a[3]="Sku tru om det ikkje va på den tia da"
-a[4]="Det her heindt omtrent på den tia da"
-a[5]="Det her hendt på den tia da"
-a[6]="Tar æ ikkje mye feil heindt det hær mens "
-a[7]="Det hær e ein sainn historie fra den tia da"
-a[8]="Det mått ha vøre mens"
-a[9]="Jau, det va seinvinters, og om æ ikkje erinder feil så va det da"
-a[10]="Det her va mens"
-a[11]="Det her heindt mens"
-a[12]="Det va på den tia da"
-a[13]="Det her va før bruførrbindelsen tell Senja, mens"
-a[14]="Det her va i mellakrigstia mens"
-a[15]="Ska vi sjå, æ tru det må ha vøre da"
-a[16]="Det her e ein historie fra den tia da"
-a[17]="Den her historien utspæll sæ på den tia da"
-a[18]="Di sei det va mens"
-a[19]="Det her va i gammeldaga mens"
-a[20]="Det her hendt på den tida da"
-a[21]="Jau, ska tru om ikkje det hær heindt på den tida da"
-a[22]="Det her va på den tida"
+introductions[1]="Det va mens"
+introductions[2]="Det her va, om æ minnest rætt, mens"
+introductions[3]="Sku tru om det ikkje va på den tia da"
+introductions[4]="Det her heindt omtrent på den tia da"
+introductions[5]="Det her hendt på den tia da"
+introductions[6]="Tar æ ikkje mye feil heindt det hær mens "
+introductions[7]="Det hær e ein sainn historie fra den tia da"
+introductions[8]="Det mått ha vøre mens"
+introductions[9]="Jau, det va seinvinters, og om æ ikkje erinder feil så va det da"
+introductions[10]="Det her va mens"
+introductions[11]="Det her heindt mens"
+introductions[12]="Det va på den tia da"
+introductions[13]="Det her va før bruførrbindelsen tell Senja, mens"
+introductions[14]="Det her va i mellakrigstia mens"
+introductions[15]="Ska vi sjå, æ tru det må ha vøre da"
+introductions[16]="Det her e ein historie fra den tia da"
+introductions[17]="Den her historien utspæll sæ på den tia da"
+introductions[18]="Di sei det va mens"
+introductions[19]="Det her va i gammeldaga mens"
+introductions[20]="Det her hendt på den tida da"
+introductions[21]="Jau, ska tru om ikkje det hær heindt på den tida da"
+introductions[22]="Det her va på den tida"
 
 
-b[1]="han Jændor"
-b[2]="ho Emma"
-b[3]="han Krestian"
-b[4]="ho Jærn-Margot"
-b[5]="han litj-Anton"
-b[6]="han Johannes"
-b[7]="han Eilert"
-b[8]="han Stor-Knut"
-b[9]="han Georg"
-b[10]="han Edewardt "
-b[11]="han Jomar"
-b[12]="ho høn-Johanna"
-b[13]="han Gunder"
-b[14]="han Olaus"
-b[15]="han August"
-b[16]="han Sigmund"
-b[17]="han Lydevart"
-b[18]="øngstbrorn tell han Halt-Omar"
-b[19]="han Blind-Fredrik"
-b[20]="han Lothar"
-b[21]="han Tjukk-Nils"
-b[22]="han Marvin"
-
-
-
-c[1]="kjørt møker"
-c[2]="va lænsmainn"
-c[3]="dreiv feske"
-c[4]="dreiv å mura grunnmurn tell sildmottake"
-c[5]="dreiv sjyen"
-c[6]="va sognepræst"
-c[7]="va hærredsagronom"
-c[8]="sto som nummer tre på lista tell kystpartie"
-c[9]="hadd sildstæng"
-c[10]="va ordførar"
-c[11]="dreiv me ræktråler"
-c[12]="hadd kvota si"
-c[13]="va innbura førr kvotesvindel"
-c[14]="vekariert førr organisten"
-c[15]="dreiv feskarheim"
-c[16]="mått sæll småbruke på tvangsauksjon"
-c[17]="vart kjæppjaga tell Møre ætter å ha sætt fyr på feskmottake"
-c[18]="agert storkar"
-c[19]="gjømt sæ førr bidragsfogden"
-c[20]="va engasjert av Kulturlandskap Nordland førr å slæng kjøleskap i fjærsteinan"
-c[21]="dreiv å aksjonert mot vasskraftutbygginga"
-c[22]="egenhendig bygd kaianlægg"
-c[23]="dreiv læfsbakeri"
+persons[1]="han Jændor"
+persons[2]="ho Emma"
+persons[3]="han Krestian"
+persons[4]="ho Jærn-Margot"
+persons[5]="han litj-Anton"
+persons[6]="han Johannes"
+persons[7]="han Eilert"
+persons[8]="han Stor-Knut"
+persons[9]="han Georg"
+persons[10]="han Edewardt "
+persons[11]="han Jomar"
+persons[12]="ho høn-Johanna"
+persons[13]="han Gunder"
+persons[14]="han Olaus"
+persons[15]="han August"
+persons[16]="han Sigmund"
+persons[17]="han Lydevart"
+persons[18]="øngstbrorn tell han Halt-Omar"
+persons[19]="han Blind-Fredrik"
+persons[20]="han Lothar"
+persons[21]="han Tjukk-Nils"
+persons[22]="han Marvin"
 
 
 
-d[1]="i Leknes"
-d[2]="i Balsfjorn"
-d[3]="på Rognan"
-d[4]="i Raftsunde"
-d[5]="på Senja"
-d[6]="i Finneid"
-d[7]="på Myre"
-d[8]="i Vesteråln"
-d[9]="i Svolvær"
-d[10]="i Hænningsvær"
-d[11]="i Finneidfjord"
-d[12]="i Reine"
-d[13]="i Mælfjorbotn"
-d[14]="i Kvæfjorn"
-d[15]="i Nyksunde"
-d[16]="i Finnsnes"
-d[17]="på Røst"
-d[18]="i Nord-Sjona"
-d[19]="i Lødingen"
-d[20]="i Sallangen"
-d[21]="i Bindalseide"
-d[22]="i Mefjordvær"
-d[23]="i Stamsund"
+backgrounds[1]="kjørt møker"
+backgrounds[2]="va lænsmainn"
+backgrounds[3]="dreiv feske"
+backgrounds[4]="dreiv å mura grunnmurn tell sildmottake"
+backgrounds[5]="dreiv sjyen"
+backgrounds[6]="va sognepræst"
+backgrounds[7]="va hærredsagronom"
+backgrounds[8]="sto som nummer tre på lista tell kystpartie"
+backgrounds[9]="hadd sildstæng"
+backgrounds[10]="va ordførar"
+backgrounds[11]="dreiv me ræktråler"
+backgrounds[12]="hadd kvota si"
+backgrounds[13]="va innbura førr kvotesvindel"
+backgrounds[14]="vekariert førr organisten"
+backgrounds[15]="dreiv feskarheim"
+backgrounds[16]="mått sæll småbruke på tvangsauksjon"
+backgrounds[17]="vart kjæppjaga tell Møre ætter å ha sætt fyr på feskmottake"
+backgrounds[18]="agert storkar"
+backgrounds[19]="gjømt sæ førr bidragsfogden"
+backgrounds[20]="va engasjert av Kulturlandskap Nordland førr å slæng kjøleskap i fjærsteinan"
+backgrounds[21]="dreiv å aksjonert mot vasskraftutbygginga"
+backgrounds[22]="egenhendig bygd kaianlægg"
+backgrounds[23]="dreiv læfsbakeri"
 
 
 
-
-e[1]="Gammelkara satt i"
-e[2]="Det va fæst på brøgga, og ungkara lå i"
-e[3]="Kommunestyret satt i"
-e[4]="Det va permitteringe på sildolje-fabrekken, så mæstparten av mainnfolkan satt i"
-e[5]="Bøgdeungdomslage låg i"
-e[6]="Saubøndern låg værfast i"
-e[7]="Årsmøte tell Råfesklaget satt i"
-e[8]="Småkvalfangarlage va i"
-e[9]="Feskaran satt å småhutra i"
-e[10]="Distriktslægen hadd innkailt tell møte, så det satt flust me folk i"
-e[11]="Lottfeskaran satt messførrnøyd i"
-e[12]="Et uvær av en ainna værden herja skreibanken, så lottfeskaran satt i"
-e[13]="Styre i Væsterålsmeierie satt i"
-e[14]="Mainnfolkan i bøgda låg avdrøkken i"
-e[15]="Mekalsen-familien hadd nættopp komen heim frå slæktsstævne, og satt andpusten i"
-e[16]="Det va smått me hyre så karran satt i"
-e[17]="Cubakrisen va på det heitaste, så kommunistan satt i"
-e[18]="Det va oppholdsver så ainnakvær Vesteråling satt i"
-e[19]="Det va juss etter Lofotmartnan så mainnfolka låg i"
-e[20]="Silda va kommen, så pensjonistan satt hænslængt i"
-e[21]="Utbetalinga av SND-tellskudde va førrsinka så mainnfolkan satt tetakslaust i"
-e[22]="Rotaryklubben satt pænglaus i"
-
-
-
-f[1]="naustet"
-f[2]="fjæra"
-f[3]="sjykainten"
-f[4]="førrsamlingshuse"
-f[5]="kjerka"
-f[6]="saufjøse"
-f[7]="kommunehuse"
-f[8]="præstfjæra"
-f[9]="styrhuse"
-f[10]="heimhusan"
-f[11]="menighetshuse"
-f[12]="sjarken"
-f[13]="snyskavlan"
-f[14]="ongdomshuse"
-f[15]="utbygge på moloen"
-f[16]="redningsskøyta"
-f[17]="posthuskjellern"
-f[18]="moltmyra"
-f[19]="venteromme på færgekaia"
-f[20]="kaffeterian"
-f[21]="veikainten"
-f[22]="hotællhagen"
-
-
-
-g[1]="prekivert"
-g[2]="åt"
-g[3]="glæfsa i sæ"
-g[4]="gomla"
-g[5]="rænska"
-g[6]="skar"
-g[7]="beit"
-g[8]="fallbydd"
-g[9]="skrapa"
-g[10]="tørka"
-g[11]="flækka"
-g[12]="sugd"
-g[13]="la i blaut"
-g[14]="ægna"
-g[15]="gnægd"
-g[16]="maula"
-g[17]="gjor te"
-g[18]="handtert"
-g[19]="pella"
-g[20]="hadd sæ me"
-g[21]="salta"
-g[22]="fillitert"
-g[23]="grilla"
-g[24]="saumfart"
-g[25]="længta ætter"
+places[1]="i Leknes"
+places[2]="i Balsfjorn"
+places[3]="på Rognan"
+places[4]="i Raftsunde"
+places[5]="på Senja"
+places[6]="i Finneid"
+places[7]="på Myre"
+places[8]="i Vesteråln"
+places[9]="i Svolvær"
+places[10]="i Hænningsvær"
+places[11]="i Finneidfjord"
+places[12]="i Reine"
+places[13]="i Mælfjorbotn"
+places[14]="i Kvæfjorn"
+places[15]="i Nyksunde"
+places[16]="i Finnsnes"
+places[17]="på Røst"
+places[18]="i Nord-Sjona"
+places[19]="i Lødingen"
+places[20]="i Sallangen"
+places[21]="i Bindalseide"
+places[22]="i Mefjordvær"
+places[23]="i Stamsund"
 
 
 
 
+settings[1]="Gammelkara satt i"
+settings[2]="Det va fæst på brøgga, og ungkara lå i"
+settings[3]="Kommunestyret satt i"
+settings[4]="Det va permitteringe på sildolje-fabrekken, så mæstparten av mainnfolkan satt i"
+settings[5]="Bøgdeungdomslage låg i"
+settings[6]="Saubøndern låg værfast i"
+settings[7]="Årsmøte tell Råfesklaget satt i"
+settings[8]="Småkvalfangarlage va i"
+settings[9]="Feskaran satt å småhutra i"
+settings[10]="Distriktslægen hadd innkailt tell møte, så det satt flust me folk i"
+settings[11]="Lottfeskaran satt messførrnøyd i"
+settings[12]="Et uvær av en ainna værden herja skreibanken, så lottfeskaran satt i"
+settings[13]="Styre i Væsterålsmeierie satt i"
+settings[14]="Mainnfolkan i bøgda låg avdrøkken i"
+settings[15]="Mekalsen-familien hadd nættopp komen heim frå slæktsstævne, og satt andpusten i"
+settings[16]="Det va smått me hyre så karran satt i"
+settings[17]="Cubakrisen va på det heitaste, så kommunistan satt i"
+settings[18]="Det va oppholdsver så ainnakvær Vesteråling satt i"
+settings[19]="Det va juss etter Lofotmartnan så mainnfolka låg i"
+settings[20]="Silda va kommen, så pensjonistan satt hænslængt i"
+settings[21]="Utbetalinga av SND-tellskudde va førrsinka så mainnfolkan satt tetakslaust i"
+settings[22]="Rotaryklubben satt pænglaus i"
 
-h[1]="tørrfesk"
-h[2]="skreilever"
-h[3]="hyshau"
-h[4]="flaksild"
-h[5]="høna"
-h[6]="kjøpfesk"
-h[7]="småmort"
-h[8]="saltsild"
-h[9]="småsei"
-h[10]="hyshau"
-h[11]="oppdrættsfesk"
-h[12]="kveitskinn"
-h[13]="guano"
-h[14]="russerkrabbe"
-h[15]="mandelpotet"
-h[16]="kattfesk"
-h[17]="produksjonssmolt"
-h[18]="skarv"
-h[19]="kålhau"
-h[20]="kamferdrops"
-h[21]="kålrabbi"
-h[22]="gammelsau"
-
-
-
-
-i[1]="Praten gjekk levlig,"
-i[2]="Stemninga va laber,"
-i[3]="Det va ei dyster stæmning,"
-i[4]="Det vart snakka om laust og fast,"
-i[5]="Det vart snakka om det elendige sparkføre,"
-i[6]="Det vart snakka om laust og fast,"
-i[7]="Praten gjekk levlig,"
-i[8]="Det elendige vårfeske vart diskutert,"
-i[9]="Det vart snakka om vær og vind,"
-i[10]="LOFAST-førrbindelsen vart diskutert,"
-i[11]="Det vart snakka om det dårlige feske,"
-i[12]="Det va ei dyster stæmning,"
-i[13]="Praten gjekk om framtia førr feskerian,"
-i[14]="Stæmninga va netrøkt,"
-i[15]="Stæmninga va resignert,"
-
-
-j[1]="og mangt eit sannheitens ord ble sagt."
-j[2]="og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt."
-j[3]="og skråtobakk vart spøtta væggimellom."
-j[4]="og bainnskapen hagla."
-j[5]="og eit og ainna ukvæmsord veksla eier."
-j[6]="og mang ein beskyldning om unnaluring blei framsatt."
-j[7]="og mangt ei ugudelig ord blei spøtta ut."
-j[8]="og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt."
-j[9]="og det va ikkje fritt førr at eit og ainna haulaust ord vart uttalt."
-j[10]="og mang ein beskyldning om latskap og udugeligheit blei framsatt."
-j[11]="og det vart resta oppgjett på mangt eit hau."
-j[12]="og mang ein næve vart høtta i førrakt mot handlingslammelsen tell politikeran sørpå."
+locations[1]="naustet"
+locations[2]="fjæra"
+locations[3]="sjykainten"
+locations[4]="førrsamlingshuse"
+locations[5]="kjerka"
+locations[6]="saufjøse"
+locations[7]="kommunehuse"
+locations[8]="præstfjæra"
+locations[9]="styrhuse"
+locations[10]="heimhusan"
+locations[11]="menighetshuse"
+locations[12]="sjarken"
+locations[13]="snyskavlan"
+locations[14]="ongdomshuse"
+locations[15]="utbygge på moloen"
+locations[16]="redningsskøyta"
+locations[17]="posthuskjellern"
+locations[18]="moltmyra"
+locations[19]="venteromme på færgekaia"
+locations[20]="kaffeterian"
+locations[21]="veikainten"
+locations[22]="hotællhagen"
 
 
 
-k[1]="gjekk aggregate i lufta"
-k[2]="slo han inn me et frøkteli rabalder"
-k[3]="hørtes et dævelsk smell"
-k[4]="gjekk han laus me et frøkteli rabalder"
-k[5]="hørtes en frøkteli språkbruk"
-k[6]="smallt det i golvplankan"
-k[7]="va det nån som kauka høgt"
+verbs[1]="prekivert"
+verbs[2]="åt"
+verbs[3]="glæfsa i sæ"
+verbs[4]="gomla"
+verbs[5]="rænska"
+verbs[6]="skar"
+verbs[7]="beit"
+verbs[8]="fallbydd"
+verbs[9]="skrapa"
+verbs[10]="tørka"
+verbs[11]="flækka"
+verbs[12]="sugd"
+verbs[13]="la i blaut"
+verbs[14]="ægna"
+verbs[15]="gnægd"
+verbs[16]="maula"
+verbs[17]="gjor te"
+verbs[18]="handtert"
+verbs[19]="pella"
+verbs[20]="hadd sæ me"
+verbs[21]="salta"
+verbs[22]="fillitert"
+verbs[23]="grilla"
+verbs[24]="saumfart"
+verbs[25]="længta ætter"
+
+foods[1]="tørrfesk"
+foods[2]="skreilever"
+foods[3]="hyshau"
+foods[4]="flaksild"
+foods[5]="høna"
+foods[6]="kjøpfesk"
+foods[7]="småmort"
+foods[8]="saltsild"
+foods[9]="småsei"
+foods[10]="hyshau"
+foods[11]="oppdrættsfesk"
+foods[12]="kveitskinn"
+foods[13]="guano"
+foods[14]="russerkrabbe"
+foods[15]="mandelpotet"
+foods[16]="kattfesk"
+foods[17]="produksjonssmolt"
+foods[18]="skarv"
+foods[19]="kålhau"
+foods[20]="kamferdrops"
+foods[21]="kålrabbi"
+foods[22]="gammelsau"
+
+moods1[1]="Praten gjekk levlig,"
+moods1[2]="Stemninga va laber,"
+moods1[3]="Det va ei dyster stæmning,"
+moods1[4]="Det vart snakka om laust og fast,"
+moods1[5]="Det vart snakka om det elendige sparkføre,"
+moods1[6]="Det vart snakka om laust og fast,"
+moods1[7]="Praten gjekk levlig,"
+moods1[8]="Det elendige vårfeske vart diskutert,"
+moods1[9]="Det vart snakka om vær og vind,"
+moods1[10]="LOFAST-førrbindelsen vart diskutert,"
+moods1[11]="Det vart snakka om det dårlige feske,"
+moods1[12]="Det va ei dyster stæmning,"
+moods1[13]="Praten gjekk om framtia førr feskerian,"
+moods1[14]="Stæmninga va netrøkt,"
+moods1[15]="Stæmninga va resignert,"
+
+
+moods2[1]="og mangt eit sannheitens ord ble sagt."
+moods2[2]="og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt."
+moods2[3]="og skråtobakk vart spøtta væggimellom."
+moods2[4]="og bainnskapen hagla."
+moods2[5]="og eit og ainna ukvæmsord veksla eier."
+moods2[6]="og mang ein beskyldning om unnaluring blei framsatt."
+moods2[7]="og mangt ei ugudelig ord blei spøtta ut."
+moods2[8]="og det va ikkje fritt førr at eit og ainna ukvæmsord blei uttalt."
+moods2[9]="og det va ikkje fritt førr at eit og ainna haulaust ord vart uttalt."
+moods2[10]="og mang ein beskyldning om latskap og udugeligheit blei framsatt."
+moods2[11]="og det vart resta oppgjett på mangt eit hau."
+moods2[12]="og mang ein næve vart høtta i førrakt mot handlingslammelsen tell politikeran sørpå."
 
 
 
-l[1]="en boksællar"
-l[2]="ei spellernaken ungtaus fra kunstskola i Kabelvåg"
-l[3]="gammalordførarn"
-l[4]="en gjæng me bobilturista"
-l[5]="ei oppstasa byfrøken"
-l[6]="lænnsmainn"
-l[7]="en fra feskerioppsyne"
-l[8]="en tellfløtta harstadværing"
-l[9]="han Stor-Knut"
-l[10]="en oppkava sleppskaill"
+surprises1[1]="gjekk aggregate i lufta"
+surprises1[2]="slo han inn me et frøkteli rabalder"
+surprises1[3]="hørtes et dævelsk smell"
+surprises1[4]="gjekk han laus me et frøkteli rabalder"
+surprises1[5]="hørtes en frøkteli språkbruk"
+surprises1[6]="smallt det i golvplankan"
+surprises1[7]="va det nån som kauka høgt"
+
+surpriseActors[1]="en boksællar"
+surpriseActors[2]="ei spellernaken ungtaus fra kunstskola i Kabelvåg"
+surpriseActors[3]="gammalordførarn"
+surpriseActors[4]="en gjæng me bobilturista"
+surpriseActors[5]="ei oppstasa byfrøken"
+surpriseActors[6]="lænnsmainn"
+surpriseActors[7]="en fra feskerioppsyne"
+surpriseActors[8]="en tellfløtta harstadværing"
+surpriseActors[9]="han Stor-Knut"
+surpriseActors[10]="en oppkava sleppskaill"
+
+surpriseActorActions[1]="kom sprenganes førrskræmt langs veien."
+surpriseActorActions[2]="kom til syne bak naustvæggen."
+surpriseActorActions[3]="kom hoppanes ned fra nausttake."
+surpriseActorActions[4]="ramla ned loftstrappa."
+surpriseActorActions[5]="stakk haue opp av flaksildtynna"
+surpriseActorActions[6]="ramla avdrøkken ned kjerkbakken"
+surpriseActorActions[7]="kom traskanes gjønnablaut opp av sjyen"
+surpriseActorActions[8]="skvatt opp gjønna kjellergluggen"
+
+exclamations2[1]="Ka farsken"
+exclamations2[2]="Ka i svarte"
+exclamations2[3]="Å du dævle"
+exclamations2[4]="Han steike"
+exclamations2[5]="Han steike ta"
+exclamations2[6]="Hærre jessu."
+exclamations2[7]="Milde araber"
+exclamations2[8]="Dæven døtte"
+exclamations2[9]="Dæsken ta"
+
+exclamations3[1]="æ estimere at haupin-tabelættan får avsætning no!"
+exclamations3[2]="no drei han søraust!"
+exclamations3[3]="det e my rart å før inn i fangstdagboka om dagan!"
+exclamations3[4]="og æ som ikkje har nyskjorta på!"
+exclamations3[5]="det vart ei underli tid!"
+exclamations3[6]="det e ikkje alle som lev av sjyen!"
+exclamations3[7]="gjøm rægnskapan!"
+exclamations3[8]="det vart ei ny tid, ja!"
+exclamations3[9]="det e ikkje nå mellateng!"
+exclamations3[10]="no e han tykje laus!"
+exclamations3[11]="det va no også nå te undeholdning!"
+exclamations3[12]="det e no mye som mangla vassgrauten!"
+exclamations3[13]="det vart bibelske tilstanda ja!"
+exclamations3[14]="det her vakje avmærka i almanakken!"
+exclamations3[15]="sånt leven har det ikkje vøre sian posthuse vart reven!"
+exclamations3[16]="no e fellesferien begynt!"
+exclamations3[17]="æ har no mi tru!"
+exclamations3[18]="no kjæm han rangveien!"
+exclamations3[19]="det e ikkje artigkara det mankere på!"
+
+silences[1]="Det vart stilt i førrsamlinga."
+silences[2]="Det vart dryp stille."
+silences[3]="Det vart yderst stille."
+silences[4]="Det vart tyst som i kjerkgrava."
+silences[5]="Det vart stilt som et valgmøte i boligbyggarlage."
+silences[6]="Det vart ubehaglig stilt i førrsamlinga."
+silences[7]="Det vart stille som i grava."
+silences[8]="Det vart pinlig stille."
+silences[9]="Kjæftbruken stillna, og mainnfolkan klødd sæ førrlegen i boksræva."
 
 
+postSilences[1]="Da kom det sælvfølgelig fra"
+postSilences[2]="Da kom det fra"
+postSilences[3]="Da kvakk det i"
+postSilences[4]="Da kom det knusktørt fra"
+postSilences[5]="Da kom det et harskt kræmt fra"
+postSilences[6]="Da for det i"
+postSilences[7]="Da rauk det ein smådævel i"
+postSilences[8]="Da peip det i"
 
 
-m[1]="kom sprenganes førrskræmt langs veien."
-m[2]="kom til syne bak naustvæggen."
-m[3]="kom hoppanes ned fra nausttake."
-m[4]="ramla ned loftstrappa."
-m[5]="stakk haue opp av flaksildtynna"
-m[6]="ramla avdrøkken ned kjerkbakken"
-m[7]="kom traskanes gjønnablaut opp av sjyen"
-m[8]="skvatt opp gjønna kjellergluggen"
+postSilenceDescriptions[1]="som ikkje akkurat hadd søtte å spøtta i glassan;"
+postSilenceDescriptions[2]="som ikke brukt å snakk i småbokstava;"
+postSilenceDescriptions[3]="som ikkje brukt å spar på kommentaran;"
+postSilenceDescriptions[4]="som ikkje brukt å spar møkre tell vårn;"
+postSilenceDescriptions[5]="som ikkje holdt kjæft længe om gangen;"
+postSilenceDescriptions[6]="som ikkje akkurat va bevandra i finsnakking;"
+postSilenceDescriptions[7]="som ikkje va kjent førr å snakk me finbokstava;"
+postSilenceDescriptions[8]="som lætt vart mainnbisk;"
+postSilenceDescriptions[9]="som ikkje hold kjæften sin unødig længe;"
+postSilenceDescriptions[10]="som ikkje lot teng vær usagt;"
+postSilenceDescriptions[11]="som ikkje brukt å breinn inne me teng det vart fundert på;"
+postSilenceDescriptions[12]="som aldri va spesielt diplomatisk i kjæften;"
+postSilenceDescriptions[13]="som ikkje va smålåten blandt kjentfolk;"
+postSilenceDescriptions[14]="som ikkje brukt å fær varsomt fram me kjæftbruken;"
+postSilenceDescriptions[15]="som ikkje brukt å la teng gå ukommentert;"
+postSilenceDescriptions[16]="som vanligvis ikkje hadd tunga gåanes og driv dank i nerkjæften;"
+postSilenceDescriptions[17]="som ikkje brukt å spar på storbokstavan;"
+postSilenceDescriptions[18]="som ikkje længer hørt så godt;"
 
+exclamations4[1]="- ja, no e det like før"
+exclamations4[2]="- nei, det ekje kvær dag"
+exclamations4[3]="- ja, no ska dokk sjå"
+exclamations4[4]="- ja, no ska dokk pinadø sjå"
+exclamations4[5]="- det e længe mella kvær gang"
 
-n[1]="Ka farsken"
-n[2]="Ka i svarte"
-n[3]="Å du dævle"
-n[4]="Han steike"
-n[5]="Han steike ta"
-n[6]="Hærre jessu."
-n[7]="Milde araber"
-n[8]="Dæven døtte"
-n[9]="Dæsken ta"
+exclamations5[1]="innehavarn av feskarheimen"
+exclamations5[2]="han Teodor"
+exclamations5[3]="ho Johanna"
+exclamations5[4]="han Apotekerhansen"
+exclamations5[5]="han gærn-Lyder"
+exclamations5[6]="disponænten på fileen"
+exclamations5[7]="ordførarn"
+exclamations5[8]="trålbasen"
+exclamations5[9]="nybiblotekarn"
+exclamations5[10]="ræktorn på lærarskola"
+exclamations5[11]="lænnsmainn"
+exclamations5[12]="væreiarn"
+exclamations5[13]="næstførrmainn i råfesklage"
+exclamations5[14]="ledern av menighetsråde"
+exclamations5[15]="næringssjæfen"
+exclamations5[16]="destrektslægen"
+exclamations5[17]="præstvikarn"
+exclamations5[18]="bestyrarn på gammelheimen"
+exclamations5[19]="oppsynsmainn Karlsen"
+exclamations5[20]="formainn i legningsnæmda"
+exclamations5[21]="havnefogden"
 
-
-
-
-o[1]="æ estimere at haupin-tabelættan får avsætning no!"
-o[2]="no drei han søraust!"
-o[3]="det e my rart å før inn i fangstdagboka om dagan!"
-o[4]="og æ som ikkje har nyskjorta på!"
-o[5]="det vart ei underli tid!"
-o[6]="det e ikkje alle som lev av sjyen!"
-o[7]="gjøm rægnskapan!"
-o[8]="det vart ei ny tid, ja!"
-o[9]="det e ikkje nå mellateng!"
-o[10]="no e han tykje laus!"
-o[11]="det va no også nå te undeholdning!"
-o[12]="det e no mye som mangla vassgrauten!"
-o[13]="det vart bibelske tilstanda ja!"
-o[14]="det her vakje avmærka i almanakken!"
-o[15]="sånt leven har det ikkje vøre sian posthuse vart reven!"
-o[16]="no e fellesferien begynt!"
-o[17]="æ har no mi tru!"
-o[18]="no kjæm han rangveien!"
-o[19]="det e ikkje artigkara det mankere på!"
-
-
-
-p[1]="Det vart stilt i førrsamlinga."
-p[2]="Det vart dryp stille."
-p[3]="Det vart yderst stille."
-p[4]="Det vart tyst som i kjerkgrava."
-p[5]="Det vart stilt som et valgmøte i boligbyggarlage."
-p[6]="Det vart ubehaglig stilt i førrsamlinga."
-p[7]="Det vart stille som i grava."
-p[8]="Det vart pinlig stille."
-p[9]="Kjæftbruken stillna, og mainnfolkan klødd sæ førrlegen i boksræva."
-
-
-q[1]="Da kom det sælvfølgelig fra"
-q[2]="Da kom det fra"
-q[3]="Da kvakk det i"
-q[4]="Da kom det knusktørt fra"
-q[5]="Da kom det et harskt kræmt fra"
-q[6]="Da for det i"
-q[7]="Da rauk det ein smådævel i"
-q[8]="Da peip det i"
-
-
-s[1]="som ikkje akkurat hadd søtte å spøtta i glassan;"
-s[2]="som ikke brukt å snakk i småbokstava;"
-s[3]="som ikkje brukt å spar på kommentaran;"
-s[4]="som ikkje brukt å spar møkre tell vårn;"
-s[5]="som ikkje holdt kjæft længe om gangen;"
-s[6]="som ikkje akkurat va bevandra i finsnakking;"
-s[7]="som ikkje va kjent førr å snakk me finbokstava;"
-s[8]="som lætt vart mainnbisk;"
-s[9]="som ikkje hold kjæften sin unødig længe;"
-s[10]="som ikkje lot teng vær usagt;"
-s[11]="som ikkje brukt å breinn inne me teng det vart fundert på;"
-s[12]="som aldri va spesielt diplomatisk i kjæften;"
-s[13]="som ikkje va smålåten blandt kjentfolk;"
-s[14]="som ikkje brukt å fær varsomt fram me kjæftbruken;"
-s[15]="som ikkje brukt å la teng gå ukommentert;"
-s[16]="som vanligvis ikkje hadd tunga gåanes og driv dank i nerkjæften;"
-s[17]="som ikkje brukt å spar på storbokstavan;"
-s[18]="som ikkje længer hørt så godt;"
-
-
-t[1]="- ja, no e det like før"
-t[2]="- nei, det ekje kvær dag"
-t[3]="- ja, no ska dokk sjå"
-t[4]="- ja, no ska dokk pinadø sjå"
-t[5]="- det e længe mella kvær gang"
-
-
-u[1]="innehavarn av feskarheimen"
-u[2]="han Teodor"
-u[3]="ho Johanna"
-u[4]="han Apotekerhansen"
-u[5]="han gærn-Lyder"
-u[6]="disponænten på fileen"
-u[7]="ordførarn"
-u[8]="trålbasen"
-u[9]="nybiblotekarn"
-u[10]="ræktorn på lærarskola"
-u[11]="lænnsmainn"
-u[12]="væreiarn"
-u[13]="næstførrmainn i råfesklage"
-u[14]="ledern av menighetsråde"
-u[15]="næringssjæfen"
-u[16]="destrektslægen"
-u[17]="præstvikarn"
-u[18]="bestyrarn på gammelheimen"
-u[19]="oppsynsmainn Karlsen"
-u[20]="formainn i legningsnæmda"
-u[21]="havnefogden"
-
-
-
-
-
-w[1]="skræm unga på præstefrua!"
-w[2]="hæng gardina i fjøsvindue!"
-w[3]="begjynn å kok fesken ætter gammelmetoden!"
-w[4]="dræg kvota i finstasen!"
-w[5]="lægg gammelnota på naustlofte!"
-w[6]="gjøm trygda i saufjøse!"
-w[7]="kjøp kokfesk på samvirkelage!"
-w[8]="må nykonførrmer sæ!"
-w[9]="kjør sjarken i kaia!"
-w[10]="reingjør saufjøsen!"
-w[11]="utvid nauste!"
-w[12]="røsk strækka av pængboka!"
-w[13]="lægg sjyvottan punj haue!"
-w[14]="fjærn mosen fra taksteinan!"
-w[15]="strør grovsalt på færgeleie!"
-w[16]="hjølp gammaljomfrua på Sund me klesvasken"
-w[17]="tørk sæ ruindt kjæften me kopptua!"
-w[18]="får trødd luft i baillan!"
-w[19]="må uinnbrok-lægg-sæ ætter meddagen!"
+exclamations6[1]="skræm unga på præstefrua!"
+exclamations6[2]="hæng gardina i fjøsvindue!"
+exclamations6[3]="begjynn å kok fesken ætter gammelmetoden!"
+exclamations6[4]="dræg kvota i finstasen!"
+exclamations6[5]="lægg gammelnota på naustlofte!"
+exclamations6[6]="gjøm trygda i saufjøse!"
+exclamations6[7]="kjøp kokfesk på samvirkelage!"
+exclamations6[8]="må nykonførrmer sæ!"
+exclamations6[9]="kjør sjarken i kaia!"
+exclamations6[10]="reingjør saufjøsen!"
+exclamations6[11]="utvid nauste!"
+exclamations6[12]="røsk strækka av pængboka!"
+exclamations6[13]="lægg sjyvottan punj haue!"
+exclamations6[14]="fjærn mosen fra taksteinan!"
+exclamations6[15]="strør grovsalt på færgeleie!"
+exclamations6[16]="hjølp gammaljomfrua på Sund me klesvasken"
+exclamations6[17]="tørk sæ ruindt kjæften me kopptua!"
+exclamations6[18]="får trødd luft i baillan!"
+exclamations6[19]="må uinnbrok-lægg-sæ ætter meddagen!"
 
 
 x[1]="sjøl"
@@ -499,24 +473,24 @@ x[4]=""
 
 
 
-ad[1]="åreførrkalka"
-ad[2]="nesnya"
-ad[3]="grovsalta"
-ad[4]="nærsynte"
-ad[5]="utjåla"
-ad[6]="heimfødde"
-ad[7]="vrangsøvde"
-ad[8]="kullørte"
-ad[9]="førrnikla"
-ad[10]="utsarva"
-ad[11]=""
-ad[12]=""
-ad[13]=""
-ad[14]=""
-ad[15]=""
-ad[16]=""
-ad[17]=""
-ad[18]=""
+adjectives2[1]="åreførrkalka"
+adjectives2[2]="nesnya"
+adjectives2[3]="grovsalta"
+adjectives2[4]="nærsynte"
+adjectives2[5]="utjåla"
+adjectives2[6]="heimfødde"
+adjectives2[7]="vrangsøvde"
+adjectives2[8]="kullørte"
+adjectives2[9]="førrnikla"
+adjectives2[10]="utsarva"
+adjectives2[11]=""
+adjectives2[12]=""
+adjectives2[13]=""
+adjectives2[14]=""
+adjectives2[15]=""
+adjectives2[16]=""
+adjectives2[17]=""
+adjectives2[18]=""
 
 v[1]="kommel"
 v[2]="slog"
@@ -547,106 +521,102 @@ y[13]="oter"
 
 
 
-z[1]="førskrækka"
-z[2]="i førbainnels"
-z[3]="og høtta me næven"
-z[4]="og velta glasse me pulverkaffe i førrfjamsels"
-z[5]="og resta oppgjett på haue"
-z[6]="og spøtta skråtobakk i feskkassen"
-z[7]="som hadd glømt brillan heime"
-z[8]="som brukt å ha sine pærioda me religiøs ækstase"
-z[9]="me andakt i stæmmen"
-z[10]="og tok på sæ brillan"
-z[11]="og la på sprang"
+personDescriptions[1]="førskrækka"
+personDescriptions[2]="i førbainnels"
+personDescriptions[3]="og høtta me næven"
+personDescriptions[4]="og velta glasse me pulverkaffe i førrfjamsels"
+personDescriptions[5]="og resta oppgjett på haue"
+personDescriptions[6]="og spøtta skråtobakk i feskkassen"
+personDescriptions[7]="som hadd glømt brillan heime"
+personDescriptions[8]="som brukt å ha sine pærioda me religiøs ækstase"
+personDescriptions[9]="me andakt i stæmmen"
+personDescriptions[10]="og tok på sæ brillan"
+personDescriptions[11]="og la på sprang"
 
 
-aa[1]="nykoka"
-aa[2]="lættsalta"
-aa[3]="bedærva"
-aa[4]="ruindstekt"
-aa[5]="gammelsalta"
-aa[6]="oppværma"
-aa[7]="oppskjært"
-aa[8]="secunda"
-aa[9]="størkna"
-aa[10]="skjæmt"
-aa[11]="suindkoka"
+adjectives1[1]="nykoka"
+adjectives1[2]="lættsalta"
+adjectives1[3]="bedærva"
+adjectives1[4]="ruindstekt"
+adjectives1[5]="gammelsalta"
+adjectives1[6]="oppværma"
+adjectives1[7]="oppskjært"
+adjectives1[8]="secunda"
+adjectives1[9]="størkna"
+adjectives1[10]="skjæmt"
+adjectives1[11]="suindkoka"
 
 
-ab[1]="jultrefæst"
-ab[2]="ei testellning"
-ab[3]="50-års lag"
-ab[4]="fæstlig lag"
-ab[5]="sankthansfeiring"
-ab[6]="konfermasjon"
-ab[7]="bryllup"
-ab[8]="begravels"
-ab[9]="gjøbbørsdag"
+places2[1]="jultrefæst"
+places2[2]="ei testellning"
+places2[3]="50-års lag"
+places2[4]="fæstlig lag"
+places2[5]="sankthansfeiring"
+places2[6]="konfermasjon"
+places2[7]="bryllup"
+places2[8]="begravels"
+places2[9]="gjøbbørsdag"
 
 
-ac[1]="du ekje akkurat nå feskkokar du sjøl heller!"
-ac[2]="skriv du talan dine sjøl?"
-ac[3]="sku tru du aldri hadd ete ilag me storfræmmed før!"
-ac[4]="det e ikkje kvær dag du åpne kjæften din heller!"
-ac[5]="no prate du jusså præsten!"
-ac[6]="du ska no ha så mange slags takk sjøl!"
-ac[7]="no har du plassert ræva i sausfate igjæn!"
-ac[8]="no har du fått præstfrua i skrikinga!"
-ac[9]="du har no alltid vøre rang i matveien!"
-ac[10]="vær vænnlig å hoill kjæft attme matborde!"
+exclamations1[1]="du ekje akkurat nå feskkokar du sjøl heller!"
+exclamations1[2]="skriv du talan dine sjøl?"
+exclamations1[3]="sku tru du aldri hadd ete ilag me storfræmmed før!"
+exclamations1[4]="det e ikkje kvær dag du åpne kjæften din heller!"
+exclamations1[5]="no prate du jusså præsten!"
+exclamations1[6]="du ska no ha så mange slags takk sjøl!"
+exclamations1[7]="no har du plassert ræva i sausfate igjæn!"
+exclamations1[8]="no har du fått præstfrua i skrikinga!"
+exclamations1[9]="du har no alltid vøre rang i matveien!"
+exclamations1[10]="vær vænnlig å hoill kjæft attme matborde!"
 
-ae[1]="sto førr beværtninga"
-ae[2]="sto førr traktemange"
-ae[3]="hadd laga te mat"
-ae[4]="sto førr maten"
-ae[5]="hadd koka meddag"
+descriptives1[1]="sto førr beværtninga"
+descriptives1[2]="sto førr traktemange"
+descriptives1[3]="hadd laga te mat"
+descriptives1[4]="sto førr maten"
+descriptives1[5]="hadd koka meddag"
 
+things1[1]="ein utstoppa oter"
+things1[2]="et auskar"
+things1[3]="ei bænsinkainna"
+things1[4]="ei flaska kjøpsprit"
+things1[5]="ein toillkniv"
+things1[6]="et flyndergarn"
+things1[7]="et trækkspæll"
+things1[8]="kaillvassbøtta"
+things1[9]="uindbroka"
+things1[10]="ein linstamp"
+things1[11]="ei hauput"
+things1[12]="søndagsbroka"
 
-af[1]="ein utstoppa oter"
-af[2]="et auskar"
-af[3]="ei bænsinkainna"
-af[4]="ei flaska kjøpsprit"
-af[5]="ein toillkniv"
-af[6]="et flyndergarn"
-af[7]="et trækkspæll"
-af[8]="kaillvassbøtta"
-af[9]="uindbroka"
-af[10]="ein linstamp"
-af[11]="ei hauput"
-af[12]="søndagsbroka"
+exclamations2[1]="så kjæm storkaran jusså floga på hæstskjiten"
+exclamations2[2]="så bi man kjenning allihop"
+exclamations2[3]="så ska ainnakvær sprættskjit vis fræm boksræva"
+exclamations2[4]="så e det ikkje framkomman langsme grusveien"
+exclamations2[5]="så e dæm snar å få på sæ topphuva"
+exclamations2[6]="så sett gammelpængan laust i brøstlomma"
+exclamations2[7]="så slit dæm sæ laus fra kjærringræva"
+exclamations2[8]="så e dæm snar i pesshæstan"
 
-ag[1]="så kjæm storkaran jusså floga på hæstskjiten"
-ag[2]="så bi man kjenning allihop"
-ag[3]="så ska ainnakvær sprættskjit vis fræm boksræva"
-ag[4]="så e det ikkje framkomman langsme grusveien"
-ag[5]="så e dæm snar å få på sæ topphuva"
-ag[6]="så sett gammelpængan laust i brøstlomma"
-ag[7]="så slit dæm sæ laus fra kjærringræva"
-ag[8]="så e dæm snar i pesshæstan"
+verbs2[1]="lukta"
+verbs2[2]="e"
+verbs2[3]="spanderes"
+verbs2[4]="fallbys"
+verbs2[5]="kokes"
+verbs2[6]="dræges tell me"
+verbs2[7]="auksjoneres"
+verbs2[8]="frestes me"
 
+dialogues1[1]="Kjære førrsamling"
+dialogues1[2]="Kjære aillesammen"
+dialogues1[3]="Mine damer og herrer, og øvrigheita forøvrig"
+dialogues1[4]="Ehh.. kjære fræmmøtte"
+dialogues1[5]="Kjære aillihopen"
 
-
-ah[1]="lukta"
-ah[2]="e"
-ah[3]="spanderes"
-ah[4]="fallbys"
-ah[5]="kokes"
-ah[6]="dræges tell me"
-ah[7]="auksjoneres"
-ah[8]="frestes me"
-
-
-ai[1]="Kjære førrsamling"
-ai[2]="Kjære aillesammen"
-ai[3]="Mine damer og herrer, og øvrigheita forøvrig"
-ai[4]="Ehh.. kjære fræmmøtte"
-ai[5]="Kjære aillihopen"
-
-aj[1]="Og takk førr det."
-aj[2]="Og det e æ pærsonli takknæmlig førr."
-aj[3]="Og det e vi alle gla førr."
-aj[4]="Og æ pærsonli kjent ikkje usmak på nokka."
-aj[5]="Så ikkje gløm å spis dokk sængliggan."
+dialogues2[1]="Og takk førr det."
+dialogues2[2]="Og det e æ pærsonli takknæmlig førr."
+dialogues2[3]="Og det e vi alle gla førr."
+dialogues2[4]="Og æ pærsonli kjent ikkje usmak på nokka."
+dialogues2[5]="Så ikkje gløm å spis dokk sængliggan."
 
 
 
@@ -668,56 +638,56 @@ if (blanding == 1) {
 	   // original struktur
 
        	   subscript=rndnumber(amax)
-	   if (a[subscript] != "") { msg = msg + a[subscript] + " " }
+	   if (introductions[subscript] != "") { msg = msg + introductions[subscript] + " " }
            subscript=rndnumber(bmax)
-   	   if (b[subscript] != "") { msg = msg + b[subscript] + " " }
+   	   if (persons[subscript] != "") { msg = msg + persons[subscript] + " " }
 	   subscript=rndnumber(cmax)
-   	   if (c[subscript] != "") { msg = msg + c[subscript] + " " }
+   	   if (backgrounds[subscript] != "") { msg = msg + backgrounds[subscript] + " " }
        	   subscript=rndnumber(dmax)
-	   if (d[subscript] != "") { msg = msg + d[subscript] + ". " }
+	   if (places[subscript] != "") { msg = msg + places[subscript] + ". " }
            subscript=rndnumber(emax)
-   	   if (e[subscript] != "") { msg = msg + e[subscript] + " " }
+   	   if (settings[subscript] != "") { msg = msg + settings[subscript] + " " }
 	   subscript=rndnumber(fmax)
-   	   if (f[subscript] != "") { msg = msg + f[subscript] + " og " }
+   	   if (locations[subscript] != "") { msg = msg + locations[subscript] + " og " }
        	   subscript=rndnumber(gmax)
-	   if (g[subscript] != "") { msg = msg + g[subscript] + " " }
+	   if (verbs[subscript] != "") { msg = msg + verbs[subscript] + " " }
            subscript=rndnumber(hmax)
-   	   if (h[subscript] != "") { msg = msg + h[subscript] + ". " }
+   	   if (foods[subscript] != "") { msg = msg + foods[subscript] + ". " }
        	   subscript=rndnumber(imax)
-	   if (i[subscript] != "") { msg = msg + i[subscript] + " " }
+	   if (moods1[subscript] != "") { msg = msg + moods1[subscript] + " " }
            subscript=rndnumber(jmax)
-   	   if (j[subscript] != "") { msg = msg + j[subscript] + " <br><br>Plutselig " }
+   	   if (moods2[subscript] != "") { msg = msg + moods2[subscript] + " <br><br>Plutselig " }
        	   subscript=rndnumber(kmax)
-	   if (k[subscript] != "") { msg = msg + k[subscript] + ", og " }
+	   if (surprises1[subscript] != "") { msg = msg + surprises1[subscript] + ", og " }
        	   subscript=rndnumber(lmax)
-	   if (l[subscript] != "") { msg = msg + l[subscript] + " " }
+	   if (surpriseActors[subscript] != "") { msg = msg + surpriseActors[subscript] + " " }
 
            subscript=rndnumber(mmax)
-   	   if (m[subscript] != "") { msg = msg + m[subscript] + ". <b>'" }
+   	   if (surpriseActorActions[subscript] != "") { msg = msg + surpriseActorActions[subscript] + ". <b>'" }
        	   subscript=rndnumber(nmax)
-	   if (n[subscript] != "") { msg = msg +n[subscript] + ".. " }
+	   if (exclamations2[subscript] != "") { msg = msg +exclamations2[subscript] + ".. " }
        	   subscript=rndnumber(omax)
-	   if (o[subscript] != "") { msg = msg + o[subscript] + "'</i></b> utbraut " }
+	   if (exclamations3[subscript] != "") { msg = msg + exclamations3[subscript] + "'</i></b> utbraut " }
        	   subscript=rndnumber(bmax)
-	   if (b[subscript] != "") { msg = msg + b[subscript] + " " }
+	   if (persons[subscript] != "") { msg = msg + persons[subscript] + " " }
        	   subscript=rndnumber(zmax)
-	   if (z[subscript] != "") { msg = msg + z[subscript] + ".<br><br>" }
+	   if (personDescriptions[subscript] != "") { msg = msg + personDescriptions[subscript] + ".<br><br>" }
        	   subscript=rndnumber(pmax)
-	   if (p[subscript] != "") { msg = msg + p[subscript] + "<br><br>" }
+	   if (silences[subscript] != "") { msg = msg + silences[subscript] + "<br><br>" }
        	   subscript=rndnumber(qmax)
-	   if (q[subscript] != "") { msg = msg + q[subscript] + " " }
+	   if (postSilences[subscript] != "") { msg = msg + postSilences[subscript] + " " }
        	   subscript=rndnumber(bmax)
-	   if (b[subscript] != "") { msg = msg + b[subscript] + ", " }
+	   if (persons[subscript] != "") { msg = msg + persons[subscript] + ", " }
        	   subscript=rndnumber(smax)
-	   if (s[subscript] != "") { msg = msg + s[subscript] + " <b>'" }
+	   if (postSilenceDescriptions[subscript] != "") { msg = msg + postSilenceDescriptions[subscript] + " <b>'" }
        	   subscript=rndnumber(tmax)
-	   if (t[subscript] != "") { msg = msg + t[subscript] + " at " }
+	   if (exclamations4[subscript] != "") { msg = msg + exclamations4[subscript] + " at " }
        	   subscript=rndnumber(xmax)
 	   if (x[subscript] != "") { msg = msg + x[subscript] + " " }
        	   subscript=rndnumber(umax)
-	   if (u[subscript] != "") { msg = msg + u[subscript] + " " }
+	   if (exclamations5[subscript] != "") { msg = msg + exclamations5[subscript] + " " }
        	   subscript=rndnumber(wmax)
-	   if (w[subscript] != "") { msg = msg + w[subscript] + "'</b> " }
+	   if (exclamations6[subscript] != "") { msg = msg + exclamations6[subscript] + "'</b> " }
 
   }
 
@@ -726,50 +696,50 @@ if (blanding == 2) {
 	   // ny
 
            subscript=rndnumber(amax)
-	   if (a[subscript] != "") { msg = msg + a[subscript] + " " }
+	   if (introductions[subscript] != "") { msg = msg + introductions[subscript] + " " }
            subscript=rndnumber(bmax)
-   	   if (b[subscript] != "") { msg = msg + b[subscript] + " " }
+   	   if (persons[subscript] != "") { msg = msg + persons[subscript] + " " }
 	   subscript=rndnumber(cmax)
-   	   if (c[subscript] != "") { msg = msg + c[subscript] + " " }
+   	   if (backgrounds[subscript] != "") { msg = msg + backgrounds[subscript] + " " }
        	   subscript=rndnumber(dmax)
-	   if (d[subscript] != "") { msg = msg + d[subscript] + ". " }
+	   if (places[subscript] != "") { msg = msg + places[subscript] + ". " }
            subscript=rndnumber(abmax)
-	   if (ab[subscript] != "") { msg = msg + "Folk va samla tell " + ab[subscript] + " i " }
+	   if (places2[subscript] != "") { msg = msg + "Folk va samla tell " + places2[subscript] + " i " }
            subscript=rndnumber(fmax)
-   	   if (f[subscript] != "") { msg = msg + f[subscript] + ", og " }
+   	   if (locations[subscript] != "") { msg = msg + locations[subscript] + ", og " }
            subscript=rndnumber(umax)
-   	   if (u[subscript] != "") { msg = msg + u[subscript] + " "  }
+   	   if (exclamations5[subscript] != "") { msg = msg + exclamations5[subscript] + " "  }
            subscript=rndnumber(aemax)
-	   if (ae[subscript] != "") { msg = msg + ae[subscript] + ".<br><br> " }
+	   if (descriptives1[subscript] != "") { msg = msg + descriptives1[subscript] + ".<br><br> " }
            subscript=rndnumber(imax)
-   	   if (i[subscript] != "") { msg = msg + i[subscript] + " helt tell han Teodor reist sæ opp, kræmta og ba om orde: <b>'" }
+   	   if (moods1[subscript] != "") { msg = msg + moods1[subscript] + " helt tell han Teodor reist sæ opp, kræmta og ba om orde: <b>'" }
            subscript=rndnumber(aimax)
-   	   if (ai[subscript] != "") { msg = msg + ai[subscript] + "! Det e ikkje kvær dag man får gaffel i sæ "  }
+   	   if (dialogues1[subscript] != "") { msg = msg + dialogues1[subscript] + "! Det e ikkje kvær dag man får gaffel i sæ "  }
            subscript=rndnumber(aamax)
-   	   if (aa[subscript] != "") { msg = msg + aa[subscript] + " " }
+   	   if (adjectives1[subscript] != "") { msg = msg + adjectives1[subscript] + " " }
            subscript=rndnumber(hmax)
-   	   if (h[subscript] != "") { msg = msg + h[subscript] + " ilag me " }
+   	   if (foods[subscript] != "") { msg = msg + foods[subscript] + " ilag me " }
 	       subscript=rndnumber(umax)
-   	   if (u[subscript] != "") { msg = msg + u[subscript] + ". " }
+   	   if (exclamations5[subscript] != "") { msg = msg + exclamations5[subscript] + ". " }
             subscript=rndnumber(ajmax)
-   	   if (aj[subscript] != "") { msg = msg + aj[subscript] + "' </i></b><br><br>" }
+   	   if (dialogues2[subscript] != "") { msg = msg + dialogues2[subscript] + "' </i></b><br><br>" }
       	   subscript=rndnumber(pmax)
-	   if (p[subscript] != "") { msg = msg + p[subscript] + " <br><br>" }
+	   if (silences[subscript] != "") { msg = msg + silences[subscript] + " <br><br>" }
            subscript=rndnumber(qmax)
-       if (q[subscript] != "") { msg = msg + q[subscript] + " " }
+       if (postSilences[subscript] != "") { msg = msg + postSilences[subscript] + " " }
        	   subscript=rndnumber(bmax)
-	   if (b[subscript] != "") { msg = msg + b[subscript] + ", " }
+	   if (persons[subscript] != "") { msg = msg + persons[subscript] + ", " }
        	   subscript=rndnumber(smax)
-	   if (s[subscript] != "") { msg = msg + s[subscript] + " <b>'Teodor, din " }
+	   if (postSilenceDescriptions[subscript] != "") { msg = msg + postSilenceDescriptions[subscript] + " <b>'Teodor, din " }
            subscript=rndnumber(admax)
-	   if (ad[subscript] != "") { msg = msg + ad[subscript] + " " }
+	   if (adjectives2[subscript] != "") { msg = msg + adjectives2[subscript] + " " }
            subscript=rndnumber(vmax)
 	   if (v[subscript] != "") { msg = msg + v[subscript] + "" }
        	   subscript=rndnumber(ymax)
 	   if (y[subscript] != "") { msg = msg + y[subscript] + ", " }
 
            subscript=rndnumber(acmax)
-   	   if (ac[subscript] != "") { msg = msg + ac[subscript] + "'</i></b> " }
+   	   if (exclamations1[subscript] != "") { msg = msg + exclamations1[subscript] + "'</i></b> " }
 
 
 
@@ -779,43 +749,43 @@ if (blanding == 3) {
 	   // ny
 
            subscript=rndnumber(abmax)
-	   if (ab[subscript] != "") { msg = msg + " Det va " + ab[subscript] + " " }
+	   if (places2[subscript] != "") { msg = msg + " Det va " + places2[subscript] + " " }
            subscript=rndnumber(dmax)
-	   if (d[subscript] != "") { msg = msg + d[subscript] + ". " }
+	   if (places[subscript] != "") { msg = msg + places[subscript] + ". " }
            subscript=rndnumber(emax)
-	   if (e[subscript] != "") { msg = msg + e[subscript] + " " }
+	   if (settings[subscript] != "") { msg = msg + settings[subscript] + " " }
            subscript=rndnumber(fmax)
-	   if (f[subscript] != "") { msg = msg + f[subscript] + " og åt " }
+	   if (locations[subscript] != "") { msg = msg + locations[subscript] + " og åt " }
            subscript=rndnumber(aamax)
-	   if (aa[subscript] != "") { msg = msg + aa[subscript] + " " }
+	   if (adjectives1[subscript] != "") { msg = msg + adjectives1[subscript] + " " }
            subscript=rndnumber(hmax)
-	   if (h[subscript] != "") { msg = msg + h[subscript] + ". Plutselig fikk de øye på " }
+	   if (foods[subscript] != "") { msg = msg + foods[subscript] + ". Plutselig fikk de øye på " }
            subscript=rndnumber(umax)
-	   if (u[subscript] != "") { msg = msg + u[subscript] + " som kom sprenganes me " }
+	   if (exclamations5[subscript] != "") { msg = msg + exclamations5[subscript] + " som kom sprenganes me " }
            subscript=rndnumber(afmax)
-	   if (af[subscript] != "") { msg = msg + af[subscript] + " i nævan.<br><br>" }
+	   if (things1[subscript] != "") { msg = msg + things1[subscript] + " i nævan.<br><br>" }
            subscript=rndnumber(nmax)
-	   if (n[subscript] != "") { msg = msg + "<b>'" + n[subscript] + "..!'</b> kauka " }
+	   if (exclamations2[subscript] != "") { msg = msg + "<b>'" + exclamations2[subscript] + "..!'</b> kauka " }
            subscript=rndnumber(bmax)
-	   if (b[subscript] != "") { msg = msg + b[subscript] + ", <b>'-" }
+	   if (persons[subscript] != "") { msg = msg + persons[subscript] + ", <b>'-" }
            subscript=rndnumber(omax)
-	   if (o[subscript] != "") { msg = msg + o[subscript] + "' </b><br><br>" }
+	   if (exclamations3[subscript] != "") { msg = msg + exclamations3[subscript] + "' </b><br><br>" }
            subscript=rndnumber(pmax)
-	   if (p[subscript] != "") { msg = msg + p[subscript] + " <br><br>" }
+	   if (silences[subscript] != "") { msg = msg + silences[subscript] + " <br><br>" }
            subscript=rndnumber(qmax)
-	   if (q[subscript] != "") { msg = msg + q[subscript] + " " }
+	   if (postSilences[subscript] != "") { msg = msg + postSilences[subscript] + " " }
            subscript=rndnumber(bmax)
-	   if (b[subscript] != "") { msg = msg + b[subscript] + ", " }
+	   if (persons[subscript] != "") { msg = msg + persons[subscript] + ", " }
            subscript=rndnumber(smax)
-	   if (s[subscript] != "") { msg = msg + s[subscript] + " <b>'Der kan dokk sjå. Når det " }
+	   if (postSilenceDescriptions[subscript] != "") { msg = msg + postSilenceDescriptions[subscript] + " <b>'Der kan dokk sjå. Når det " }
            subscript=rndnumber(ahmax)
-	   if (ah[subscript] != "") { msg = msg + ah[subscript] + " " }
+	   if (verbs2[subscript] != "") { msg = msg + verbs2[subscript] + " " }
            subscript=rndnumber(hmax)
-	   if (h[subscript] != "") { msg = msg + h[subscript] + " i " }
+	   if (foods[subscript] != "") { msg = msg + foods[subscript] + " i " }
            subscript=rndnumber(fmax)
-	   if (f[subscript] != "") { msg = msg + f[subscript] + ", " }
+	   if (locations[subscript] != "") { msg = msg + locations[subscript] + ", " }
            subscript=rndnumber(agmax)
-	   if (ag[subscript] != "") { msg = msg + ag[subscript] + "!'</b>" }
+	   if (exclamations2[subscript] != "") { msg = msg + exclamations2[subscript] + "!'</b>" }
 
 
   }
