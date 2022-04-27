@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <MainNav />
+    <!-- <MainNav /> -->
     <div class="row">
       <router-view/>
     </div>
@@ -9,11 +9,11 @@
 
 <script>
 import { defineComponent } from 'vue'
-import MainNav from '@/components/MainNav.vue'
+// import MainNav from '@/components/MainNav.vue'
 export default defineComponent({
   name: 'Index',
   components: {
-    MainNav
+    // MainNav
   }
 })
 </script>

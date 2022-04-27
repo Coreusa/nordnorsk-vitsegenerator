@@ -466,57 +466,61 @@ exclamations6[18]="får trødd luft i baillan!"
 exclamations6[19]="må uinnbrok-lægg-sæ ætter meddagen!"
 
 
-x[1]="sjøl"
-x[2]=""
-x[3]=""
-x[4]=""
+tonalIntentions[1]="må"
+tonalIntentions[2]="får"
+tonalIntentions[3]="kainn"
+tonalIntentions[4]="må tell me å"
+tonalIntentions[5]="kainn"
+tonalIntentions[6]="må"
+tonalIntentions[7]="må"
+tonalIntentions[8]="ska"
 
 
 
-adjectives2[1]="åreførrkalka"
-adjectives2[2]="nesnya"
-adjectives2[3]="grovsalta"
-adjectives2[4]="nærsynte"
-adjectives2[5]="utjåla"
-adjectives2[6]="heimfødde"
-adjectives2[7]="vrangsøvde"
-adjectives2[8]="kullørte"
-adjectives2[9]="førrnikla"
-adjectives2[10]="utsarva"
-adjectives2[11]=""
-adjectives2[12]=""
-adjectives2[13]=""
-adjectives2[14]=""
-adjectives2[15]=""
-adjectives2[16]=""
-adjectives2[17]=""
-adjectives2[18]=""
+adjectives1[1]="åreførrkalka"
+adjectives1[2]="nesnya"
+adjectives1[3]="grovsalta"
+adjectives1[4]="nærsynte"
+adjectives1[5]="utjåla"
+adjectives1[6]="heimfødde"
+adjectives1[7]="vrangsøvde"
+adjectives1[8]="kullørte"
+adjectives1[9]="førrnikla"
+adjectives1[10]="utsarva"
+adjectives1[11]=""
+adjectives1[12]=""
+adjectives1[13]=""
+adjectives1[14]=""
+adjectives1[15]=""
+adjectives1[16]=""
+adjectives1[17]=""
+adjectives1[18]=""
 
-v[1]="kommel"
-v[2]="slog"
-v[3]="sjett"
-v[4]="tarm"
-v[5]="saup"
-v[6]="svemmel"
-v[7]="fjått"
-v[8]="sveitt"
-v[9]="tåp"
-v[10]="vengel"
-v[11]="knøvvel"
+adjectives2[1]="kommel"
+adjectives2[2]="slog"
+adjectives2[3]="sjett"
+adjectives2[4]="tarm"
+adjectives2[5]="saup"
+adjectives2[6]="svemmel"
+adjectives2[7]="fjått"
+adjectives2[8]="sveitt"
+adjectives2[9]="tåp"
+adjectives2[10]="vengel"
+adjectives2[11]="knøvvel"
 
-y[1]="staur"
-y[2]="peis"
-y[3]="slask"
-y[4]="baill"
-y[5]="skoilt"
-y[6]="kjæft"
-y[7]="skank"
-y[8]="jokk"
-y[9]="lugg"
-y[10]="skjit"
-y[11]="læst"
-y[12]="pong"
-y[13]="oter"
+adjectives3[1]="staur"
+adjectives3[2]="peis"
+adjectives3[3]="slask"
+adjectives3[4]="baill"
+adjectives3[5]="skoilt"
+adjectives3[6]="kjæft"
+adjectives3[7]="skank"
+adjectives3[8]="jokk"
+adjectives3[9]="lugg"
+adjectives3[10]="skjit"
+adjectives3[11]="læst"
+adjectives3[12]="pong"
+adjectives3[13]="oter"
 
 
 
@@ -683,7 +687,7 @@ if (blanding == 1) {
        	   subscript=rndnumber(tmax)
 	   if (exclamations4[subscript] != "") { msg = msg + exclamations4[subscript] + " at " }
        	   subscript=rndnumber(xmax)
-	   if (x[subscript] != "") { msg = msg + x[subscript] + " " }
+	   if (tonalIntentions[subscript] != "") { msg = msg + tonalIntentions[subscript] + " " }
        	   subscript=rndnumber(umax)
 	   if (exclamations5[subscript] != "") { msg = msg + exclamations5[subscript] + " " }
        	   subscript=rndnumber(wmax)
@@ -732,11 +736,11 @@ if (blanding == 2) {
        	   subscript=rndnumber(smax)
 	   if (postSilenceDescriptions[subscript] != "") { msg = msg + postSilenceDescriptions[subscript] + " <b>'Teodor, din " }
            subscript=rndnumber(admax)
-	   if (adjectives2[subscript] != "") { msg = msg + adjectives2[subscript] + " " }
+	   if (adjectives1[subscript] != "") { msg = msg + adjectives1[subscript] + " " }
            subscript=rndnumber(vmax)
-	   if (v[subscript] != "") { msg = msg + v[subscript] + "" }
+	   if (adjectives2[subscript] != "") { msg = msg + adjectives2[subscript] + "" }
        	   subscript=rndnumber(ymax)
-	   if (y[subscript] != "") { msg = msg + y[subscript] + ", " }
+	   if (adjectives3[subscript] != "") { msg = msg + adjectives3[subscript] + ", " }
 
            subscript=rndnumber(acmax)
    	   if (exclamations1[subscript] != "") { msg = msg + exclamations1[subscript] + "'</i></b> " }
@@ -786,8 +790,6 @@ if (blanding == 3) {
 	   if (locations[subscript] != "") { msg = msg + locations[subscript] + ", " }
            subscript=rndnumber(agmax)
 	   if (exclamations2[subscript] != "") { msg = msg + exclamations2[subscript] + "!'</b>" }
-
-
   }
 
 
