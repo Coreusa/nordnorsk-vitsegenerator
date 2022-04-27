@@ -15,7 +15,15 @@
     >
       Ny vits, takk!
     </button>
-
+  </div>
+  <div class="col-12 mx-auto text-light text-center mt-3">
+    Version {{ version }} ressurrected by
+    <a
+      href="twitter.com/koreus_"
+      target="_blank"
+    >
+      Coreus
+    </a>.
   </div>
 </div>
 </template>
@@ -23,13 +31,15 @@
 <script>
 // @ is an alias to /src
 import Sentences from '@/assets/sentences.json'
+import packageDetails from '../../package.json'
 export default {
   name: 'Home',
   data () {
     return {
       sentences: Sentences,
       generatedStoryHeading: '',
-      generatedStory: ''
+      generatedStory: '',
+      version: packageDetails.version
     }
   },
   computed: {
