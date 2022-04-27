@@ -1,4 +1,5 @@
-# nnv
+# Nordnorsk Vitsegenerator
+Originally created back in 2005, and lost to time around 2016-2018. Now resurrected here: https://balsamia.herokuapp.com/ !
 
 ## Project setup
 ```
