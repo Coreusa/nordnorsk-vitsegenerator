@@ -19,7 +19,7 @@
   <div class="col-12 mx-auto text-light text-center mt-3">
     Version {{ version }} ressurrected by
     <a
-      href="twitter.com/koreus_"
+      href="https://twitter.com/koreus_"
       target="_blank"
     >
       Coreus
